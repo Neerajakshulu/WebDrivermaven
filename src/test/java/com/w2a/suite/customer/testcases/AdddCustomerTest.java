@@ -11,6 +11,8 @@ import com.w2a.utilities.DataUtil;
 import com.w2a.utilities.ExcelReader;
 
 public class AdddCustomerTest {
+	
+	//This is the modified
 	@Test(dataProviderClass=DataProviders.class,dataProvider="bankManagerDP")
 	public void addCustomerTest(Hashtable<String,String> data){
 		
